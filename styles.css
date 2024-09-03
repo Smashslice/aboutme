@@ -1,11 +1,12 @@
 body {
-    font-family: "Oleo Script", system-ui;
+    font-family: Helvetica, Arial, sans-serif;
     color-scheme: dark;
     background-color: #181a1b;
     color: #e8e6e3;
 }
 
 h1 {
+    font-family: "Oleo Script", system-ui;
     text-align: center;
 }
 
@@ -17,7 +18,7 @@ h4 {
     text-align: center;
 }
 
-p {
+.centeredtextbox{
     max-width: 750px;
     text-align: center;
     margin-left: auto;
@@ -50,7 +51,8 @@ header {
     color: #F0A063;
 }
 
-img {
+
+.characterimg {
     display: flex;
     width: 380px;
     height: 400px;
@@ -58,7 +60,9 @@ img {
     margin-right: auto;
 }
 
-figure {
+.fleximgs{
+    display: flex;
+    justify-content: space-around;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -69,8 +73,18 @@ figure {
     font-weight: 400;
     font-style: normal;
 }
-/* .test{
+
+.flexcombinedmedia{
     display: flex;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-} */
+}
+.minecraftlogo{
+    width: 500px;
+    height: 200px;
+}
+.poelogo{
+    width: 399px;
+    height: 255px;
+}
