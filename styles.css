@@ -51,6 +51,7 @@ header {
     color: #F0A063;
 }
 
+
 .characterimg {
     display: flex;
     width: 380px;
@@ -62,6 +63,9 @@ header {
 .fleximgs{
     display: flex;
     justify-content: space-around;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .oleo-script-regular {
@@ -69,6 +73,7 @@ header {
     font-weight: 400;
     font-style: normal;
 }
+
 .flexcombinedmedia{
     display: flex;
     justify-content: space-around;
